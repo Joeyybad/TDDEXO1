@@ -6,7 +6,10 @@ public class Calculatrice {
     }
 
     public static int puissance(int base, int exposant) {
-        int resultat = 8;
+        int resultat = 1;
+        for (int i = 0; i < exposant; i++) {
+            resultat *= base;
+        }
         return resultat;
     }
 

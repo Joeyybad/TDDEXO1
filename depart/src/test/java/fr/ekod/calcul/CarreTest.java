@@ -34,7 +34,7 @@ public class CarreTest {
     @Test
     public void testPuissance() {
 
-        assertEquals(8, Calculatrice.puissance(2, 3));
+        assertEquals(16, Calculatrice.puissance(2, 4));
     }
 
 }

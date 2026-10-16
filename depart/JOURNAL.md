@@ -4,7 +4,8 @@ Un cycle = un test écrit, vu rouge, rendu vert avec le code minimal, puis un re
 
 | N° | Test   | Pourquoi maintenant | Code minimal écrit | Refactoring |
 |----|--------|---------------------|--------------------|-------------|
-  1 | Nominal|---------------------|assertEquals carre (3)=9|
+  1 | Nominal|---------------------|assertEquals carre (3)=9| x * x
   2 | zéro |---------------------|assertEquals carre(-4)=16|-------------|
   3 | Negatif|---------------------|assertEquals carre(0)=0|-------------|
   4 | Grand nombre|---------------------|assertEquals carre(46341) = 2147488281L|Passer en Long
+  5 | Exposant|---------------------|assertEquals puissance(2, 4)= 16| resultat *= base
