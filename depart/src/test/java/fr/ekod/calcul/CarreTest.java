@@ -28,7 +28,7 @@ public class CarreTest {
     @Test
     public void testCarreGrandNombre() {
 
-        assertEquals(2147488281, Calculatrice.carre(46341));
+        assertEquals(2147488281L, Calculatrice.carre(46341));
     }
 
 }
