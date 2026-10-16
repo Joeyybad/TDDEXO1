@@ -19,4 +19,10 @@ public class CarreTest {
         assertEquals(16, Calculatrice.carre(-4));
     }
 
+    @Test
+    public void testCarreZero() {
+
+        assertEquals(0, Calculatrice.carre(0));
+    }
+
 }
