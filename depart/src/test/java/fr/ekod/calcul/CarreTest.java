@@ -12,4 +12,11 @@ public class CarreTest {
 
         assertEquals(9, Calculatrice.carre(3));
     }
+
+    @Test
+    public void testCarreNegatif() {
+
+        assertEquals(16, Calculatrice.carre(-4));
+    }
+
 }
