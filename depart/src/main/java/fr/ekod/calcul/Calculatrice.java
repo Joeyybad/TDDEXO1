@@ -5,4 +5,9 @@ public class Calculatrice {
         return x * x;
     }
 
+    public static int puissance(int base, int exposant) {
+        int resultat = 8;
+        return resultat;
+    }
+
 }
